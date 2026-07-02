@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<test thread-count="2" parallel="tests" name="Test1">
+		<classes>
+			<class name="testcases.TC_01_AddProductToCartTest" />
+		</classes>
+	</test>
+	<test thread-count="2" parallel="tests" name="Test2">
+		<classes>
+			<class name="testcases.TC_02_AddLowestProductToCartTest" />
+		</classes>
+	</test>
+	<test thread-count="2" parallel="tests" name="Test3">
+		<classes>
+			<class name="testcases.TC_03_UseDropDownFilterTest" />
+		</classes>
+	</test> <!--Test -->
+</suite> <!--Suite -->

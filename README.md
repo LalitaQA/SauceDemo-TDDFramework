@@ -1,4 +1,4 @@
 🛒 SauceDemo Automation Testing Project
 
 📌 Project Overview  
-This repository contains the automation script created for the SauceDemo web application. The objective of this project is to validate the application's functionality by designing and executing test scripts, reporting defects, and ensuring that the application meets the expected business.
+This project is a Selenium Test Automation Framework developed using Java, Selenium WebDriver, and TestNG for automating the SauceDemo web application. The framework follows the Test-Driven Development (TDD) approach and implements the Page Object Model (POM) design pattern to improve maintainability, reusability, and scalability.
